@@ -1,0 +1,25 @@
+# Site settings
+title: new Blog().start();
+header-img: img/fundo-principal.png
+email: matheusprogrammer95@gmail.com
+copyright_name: Matheus Serrão
+description: "Um blog sobre tecnologias"
+baseurl: ""
+url: "www.matheusserrao.com"
+twitter_username: matheusserrao95
+github_username:  bluurprogrammer
+facebook_username:  matheusprogrammer
+email_username:  matheusprogrammer95@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
